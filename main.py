@@ -2,7 +2,7 @@ import ticket, summary, model, personalization
 
 
 print('Welcome to the IT Service Desk Ticketing System!!!')
-emp_id = input('Please enter your Employee ID: ').strip()
+emp_id = input('Please enter your Employee ID: ').strip().upper()
 while not emp_id.replace('-', '').replace('_', '').isalnum():
     print('Employee ID cannot be empty and can only contain letters, numbers, - or _.')
     emp_id = input('Please enter your Employee ID: ').strip()
