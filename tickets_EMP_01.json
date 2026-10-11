@@ -1,0 +1,57 @@
+[
+    {
+        "ticket_id": "SR-0001",
+        "emp_id": "EMP_01",
+        "name": "Aditya",
+        "description": "VPN keeps disconnecting",
+        "category": "VPN",
+        "priority": "Critical",
+        "status": "Closed",
+        "created_at": "2026-10-10T12:12:23.282637",
+        "sla_hrs": 3
+    },
+    {
+        "ticket_id": "SR-0002",
+        "emp_id": "EMP_01",
+        "name": "Aditya",
+        "description": "Printer is not printing documents",
+        "category": "Printer",
+        "priority": "High",
+        "status": "Closed",
+        "created_at": "2026-10-10T12:19:32.046125",
+        "sla_hrs": 12
+    },
+    {
+        "ticket_id": "SR-0003",
+        "emp_id": "EMP_01",
+        "name": "Aditya",
+        "description": "Account is locked",
+        "category": "Account Lockout",
+        "priority": "Medium",
+        "status": "Closed",
+        "created_at": "2026-10-10T12:21:49.295301",
+        "sla_hrs": 47
+    },
+    {
+        "ticket_id": "SR-0004",
+        "emp_id": "EMP_01",
+        "name": "Aditya",
+        "description": "Application crashes on startup",
+        "category": "Application Bug",
+        "priority": "Low",
+        "status": "Closed",
+        "created_at": "2026-10-10T12:22:41.838120",
+        "sla_hrs": 109
+    },
+    {
+        "ticket_id": "SR-0005",
+        "emp_id": "EMP_01",
+        "name": "Aditya",
+        "description": "Email is not syncing",
+        "category": "Email",
+        "priority": "Critical",
+        "status": "Closed",
+        "created_at": "2026-10-10T12:24:05.203249",
+        "sla_hrs": 3
+    }
+]
