@@ -3,7 +3,7 @@ import ticket, summary, model, personalization
 
 print('Welcome to the IT Service Desk Ticketing System!!!')
 emp_id = input('Please enter your Employee ID: ').strip().upper()
-while not emp_id.replace('-', '').replace('_', '').isalnum():
+while not emp_id or not emp_id.replace('-', '').replace('_', '').isalnum():
     print('Employee ID cannot be empty and can only contain letters, numbers, - or _.')
     emp_id = input('Please enter your Employee ID: ').strip()
 parameters = personalization.get_my_parameters(emp_id)
