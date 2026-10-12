@@ -2,6 +2,12 @@
 
 A command line helpdesk application where an agent can raise, track, update and resolve IT support tickets. Every ticket is checked against an SLA (Service Level Agreement) deadline, so late tickets are flagged automatically. All tickets are saved to a file, so your data is still there when you close and reopen the program.
 
+## Recent Improvements
+
+- **Case-insensitive Employee IDs:** Employee IDs are normalized to uppercase, so `emp_01` and `EMP_01` are treated as the same ID.
+- **Input validation:** Allows letters, numbers, hyphens (`-`), and underscores (`_`) in Employee IDs.
+- **Persistent tickets:** Tickets are saved per Employee ID in JSON files and loaded when the application restarts.
+
 ## Requirements
 
 - Python 3.7 or higher
@@ -50,7 +56,7 @@ Each Employee ID gets:
 
 - **A ticket ID prefix**, one of `TCK`, `REQ`, `SR`, `INC`
 
-These are shown to you right after you enter your ID. Note that the Employee ID is case-sensitive, so `emp01` and `EMP01` are treated as two different employees.
+These are shown to you right after you enter your ID. Employee IDs are normalized to uppercase, so `emp01` and `EMP01` are treated as the same employee.
 
 ## Main Menu
 
